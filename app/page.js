@@ -39,7 +39,17 @@ export default function Home() {
             <div className="rounded-3xl bg-white/5 border border-white/10 p-6 backdrop-blur-xl">
               <p className="text-gray-400 text-sm">Current Role</p>
               <h3 className="text-2xl font-bold mt-2">L2 TAC Engineer</h3>
-              <p className="text-cyan-300 mt-3">Palo Alto Networks Project</p>
+              <div className="flex items-center gap-3 mt-3">
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/8/80/Palo_Alto_Networks_2020_Logo.svg"
+    alt="Palo Alto Networks"
+    className="h-8 bg-white p-1 rounded-lg"
+  />
+
+  <p className="text-cyan-300">
+    Palo Alto Networks Project
+  </p>
+</div>
             </div>
 
             <div className="rounded-3xl bg-white/5 border border-white/10 p-6 backdrop-blur-xl">
