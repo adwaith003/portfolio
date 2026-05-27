@@ -134,6 +134,30 @@ export default function Home() {
                   <p>📧 adwaithm10@gmail.com</p>
                   <p>📱 +91 8590009448</p>
                   <p>📍 Chennai, India</p>
+
+                                <div className="mt-8">
+                  <a
+                    href="https://www.linkedin.com/in/adwaith-m-75b562201"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-4 rounded-2xl border border-cyan-400/20 bg-cyan-500/10 p-4 hover:bg-cyan-500/20 transition-all"
+                  >
+                    <img
+                      src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                      alt="LinkedIn"
+                      className="w-12 h-12 rounded-xl"
+                    />
+
+                    <div>
+                      <p className="text-cyan-300 font-semibold text-lg">
+                        Connect on LinkedIn
+                      </p>
+                      <p className="text-gray-400 text-sm break-all">
+                        linkedin.com/in/adwaith-m-75b562201
+                      </p>
+                    </div>
+                  </a>
+                </div>
                 </div>
               </div>
             </div>
